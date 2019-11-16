@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 }
@@ -6,13 +7,17 @@ div {
     font-size: 20px;
 
 }
+.center {
+margin:0 auto;
+
+}
 .grid {
     display: grid;
-    grid-template-rows:150px  165px 165px 165px 165px 150px 150px
-    185px 185px 195px 195px 145px 135px 135px ;
-    grid-template-columns:100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 150px 600px 200px 200px 200px 300px 300px
-    400px 400px 200px 200px 200px 600px 400px ;
+    grid-template-rows:150px  165px 165px 165px 165px ;
+    grid-template-columns: repeat(12,100px) ;
     grid-gap:5px;
+
+
 }
 .grid div {
     background: #ff3333;
